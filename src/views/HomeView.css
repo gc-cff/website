@@ -1,0 +1,82 @@
+.home-main {
+  width: 100vw;
+  background: #f8fafc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  overflow-x: hidden;
+}
+
+.gui-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 48px auto 0 auto;
+  gap: 48px;
+  height: 80vh;
+}
+
+.edition-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  min-width: 320px;
+  max-width: 480px;
+  padding-right: 24px;
+}
+
+.gui-perspective {
+  flex: 1;
+  perspective: 1200px;
+  width: 680px;
+  height: 600px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  order: 2;
+  margin-right: 0;
+}
+
+.gui-perspective {
+  perspective: 1200px;
+  width: 680px;
+  height: 600px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  order: 2;
+  margin-right: 2vw;
+}
+
+.gui-img {
+  width: 100%;
+  height: auto;
+  transform: rotateY(-25deg) scale(1.05);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+  border-radius: 18px;
+  background: #fff;
+}
+
+.edition-info h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin: 0;
+  color: #222;
+  white-space: nowrap;
+}
+
+.desc {
+  font-size: 1.1rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+.cta {
+  margin-top: 12px;
+}

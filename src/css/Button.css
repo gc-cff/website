@@ -1,0 +1,32 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--foreground);
+  background: var(--background);
+  cursor: pointer;
+  transition: 0.3s;
+  white-space: nowrap;
+  font-weight: 500;
+  font-family: 'Inter', system-ui, Arial, sans-serif;
+}
+
+.button svg {
+  font-size: 18px;
+  color: currentColor;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.button.active {
+  border: 1px solid var(--primary);
+  background: var(--primary);
+  color: var(--primary-foreground);
+}
