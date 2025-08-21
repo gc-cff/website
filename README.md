@@ -1,4 +1,4 @@
-# 🕸️ DD.CFF Cheat Website Repository
+# 🕸️ DD.CFF Website
 
 This repository serves as the official website for **DD.CFF**, a cheat for DDRaceNetwork.
 
@@ -8,19 +8,4 @@ This repository serves as the official website for **DD.CFF**, a cheat for DDRac
 
 ## 📄 License
 
-See [`LICENSE.md`](./LICENSE.md) for details on usage, attribution, and derivative restrictions.
-
----
-
-## 📬 Contact
-
-For support, questions, or feedback, please use the contact options provided on the website (e.g. Discord, Telegram).
-
----
-
-## ⚠️ Repository Scope
-
-This repository is **not** for cheat development, issue tracking, or code distribution.
-It is intentionally minimal and focused solely on hosting the website frontend.
-
-Please do not open issues or pull requests regarding cheat code or missing content.
+See [`LICENSE.md`](LICENSE.md) for details on usage, attribution, and derivative restrictions.
