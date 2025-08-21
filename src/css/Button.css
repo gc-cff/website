@@ -15,6 +15,12 @@
   white-space: nowrap;
   font-weight: 500;
   font-family: 'Inter', system-ui, Arial, sans-serif;
+  
+  text-decoration: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .button svg {
