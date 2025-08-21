@@ -10,8 +10,24 @@ jobs:
     permissions:
       contents: write # Needed for pushing to gh-pages
     steps:
+      # 1. Checkout the code
       - uses: actions/checkout@v3
 
+      # 2. Set up Node.js
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 22
+
+      # 3. Install dependencies
+      - name: Install dependencies
+        run: npm install
+
+      # 4. Build the React app
+      - name: Build
+        run: npm run build
+
+      # 5. Deploy to gh-pages branch
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
