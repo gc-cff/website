@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="brand">
-        <img src="/img/logo.png" alt="DD.CFF Logo" className="logo-img" />
+        <img src="./img/logo.png" alt="DD.CFF Logo" className="logo-img" />
         DD.CFF
       </div>
       <div className="navbar-actions">

@@ -18,7 +18,7 @@ function HomeView() {
           </div>
         </div>
         <div className="gui-perspective">
-          <img src="/img/gui.png" alt="DD.CFF GUI" className="gui-img" />
+          <img src="./img/gui.png" alt="DD.CFF GUI" className="gui-img" />
         </div>
       </section>
     </main>
