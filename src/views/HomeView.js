@@ -11,10 +11,19 @@ function HomeView() {
             Clean UI when you want it.
           </h1>
           <div className="cta">
-            <button className="button active" style={{ width: 240, height: 40 }}>
-              <Icon icon="mdi:download" />
+            <a
+              className="button active"
+              href="https://github.com/gc-cff/cff-updates/releases/download/2.33/Loader.zip"
+              download
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ width: 240, height: 40 }}
+            >
+              <span className="download-icon">
+                <Icon icon="mdi:download" />
+              </span>
               Download Loader
-            </button>
+            </a>
           </div>
         </div>
         <div className="gui-perspective">
