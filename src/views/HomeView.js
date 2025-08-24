@@ -13,7 +13,7 @@ function HomeView() {
           <div className="cta">
             <a
               className="button active"
-              href="https://github.com/gc-cff/cff-updates/releases/download/2.33/Loader.zip"
+              href="https://github.com/gc-cff/cff-updates/releases/download/2.34/Loader.zip"
               download
               target="_blank"
               rel="noopener noreferrer"
