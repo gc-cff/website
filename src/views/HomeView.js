@@ -17,10 +17,10 @@ function HomeView() {
               download
               target="_blank"
               rel="noopener noreferrer"
-              style={{ width: 240, height: 40 }}
+              style={{ width: 240, height: 40, fontSize: 18 }}
             >
               <span className="download-icon">
-                <Icon icon="mdi:download" />
+                <Icon icon="mdi:download" style={{ fontSize: 20 }} />
               </span>
               Download Loader
             </a>

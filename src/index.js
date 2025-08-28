@@ -7,6 +7,7 @@ import './css/Button.css';
 
 import Navbar from './components/Navbar';
 import HomeView from './views/HomeView';
+import DocsView from './views/DocsView';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,6 +17,7 @@ root.render(
       <main>
         <Routes>
           <Route path="/" element={<HomeView />} />
+          <Route path="/cheat-docs" element={<DocsView />} />
         </Routes>
       </main>
     </Router>
