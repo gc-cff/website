@@ -7,7 +7,7 @@ import './css/Button.css';
 
 import Navbar from './components/Navbar';
 import HomeView from './views/HomeView';
-import DocsView from './views/DocsView';
+import CheatDocsView from './views/CheatDocsView';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,7 +17,7 @@ root.render(
       <main>
         <Routes>
           <Route path="/" element={<HomeView />} />
-          <Route path="/cheat-docs" element={<DocsView />} />
+          <Route path="/cheat-docs" element={<CheatDocsView />} />
         </Routes>
       </main>
     </Router>

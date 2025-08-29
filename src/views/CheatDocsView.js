@@ -1,4 +1,4 @@
-import "./DocsView.css";
+import "./CheatDocsView.css";
 import { Icon } from "@iconify/react";
 import docsData from "./DocsData";
 import { useState } from "react";
@@ -35,7 +35,7 @@ function CopyButton({ content }) {
     );
 }
 
-export default function DocsView() {
+export default function CheatDocsView() {
     const [activeItem, setActiveItem] = useState(docsData[0].items[0]); // First item of the first category
     const [isEditing, setIsEditing] = useState(false);
     const [markdownContent, setMarkdownContent] = useState(activeItem.content);
